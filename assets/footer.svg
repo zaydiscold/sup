@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="105" viewBox="0 0 500 105">
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" xml:space="preserve">
+    <tspan x="0" y="24" fill="#e0e0e0" font-size="20" font-weight="500">zayd / cold</tspan>
+    <tspan x="0" y="60" font-size="15">
+      <a href="https://zayd.wtf"><tspan fill="#c4b5ff" text-decoration="underline">zayd.wtf</tspan></a>
+      <tspan fill="#555"> | </tspan>
+      <a href="https://x.com/coldcooks"><tspan fill="#c4b5ff" text-decoration="underline">twitter</tspan></a>
+      <tspan fill="#555"> | </tspan>
+      <a href="https://github.com/zaydiscold"><tspan fill="#c4b5ff" text-decoration="underline">github</tspan></a>
+    </tspan>
+    <tspan x="0" y="95" fill="#666" font-size="13" font-style="italic">icarus only fell because he flew</tspan>
+  </text>
+</svg>

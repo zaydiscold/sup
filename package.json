@@ -1,0 +1,42 @@
+{
+  "name": "@zaydiscold/sup",
+  "version": "1.0.0",
+  "description": "One command to update every package manager and dev tool",
+  "bin": {
+    "sup": "./sup.sh"
+  },
+  "scripts": {
+    "postinstall": "echo '\\n  sup installed. Run: sup\\n'"
+  },
+  "keywords": [
+    "updater",
+    "package-manager",
+    "brew",
+    "npm",
+    "cli",
+    "developer-tools",
+    "ai-tools"
+  ],
+  "author": "zayd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaydiscold/sup.git"
+  },
+  "homepage": "https://github.com/zaydiscold/sup",
+  "bugs": {
+    "url": "https://github.com/zaydiscold/sup/issues"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "sup.sh",
+    "README.md",
+    "LICENSE"
+  ]
+}
