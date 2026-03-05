@@ -217,6 +217,13 @@ self-update downloads from github releases and verifies sha-256 checksums before
 <br>
 <br>
 
+<p align="center">
+  <img src="./assets/stars6.svg" alt="·" />
+</p>
+
+<br>
+<br>
+
 <p align="left"><strong>zayd / cold</strong></p>
 
 <p align="center">
@@ -240,3 +247,7 @@ self-update downloads from github releases and verifies sha-256 checksums before
 <br>
 <br>
 <br>
+
+<p align="center">
+  <img src="./assets/wisps.svg" alt="" />
+</p>
