@@ -2,6 +2,7 @@ class Sup < Formula
   desc "One command to update every package manager and dev tool"
   homepage "https://github.com/zaydiscold/sup"
   url "https://github.com/zaydiscold/sup/releases/download/v1.0.0/sup.sh"
+  # sha256 is replaced at release time by the CI workflow
   sha256 "PLACEHOLDER_SHA256"
   license "MIT"
 

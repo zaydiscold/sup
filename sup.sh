@@ -1565,11 +1565,13 @@ parse_args() {
             --skip)
                 shift
                 [[ -n "${1:-}" ]] || { print_red "  --skip requires a tool ID"; exit 1; }
+                [[ "${1:-}" != -* ]] || { print_red "  --skip requires a tool ID, got flag: $1"; exit 1; }
                 CLI_SKIP["$1"]=1
                 ;;
             --only)
                 shift
                 [[ -n "${1:-}" ]] || { print_red "  --only requires a tool ID"; exit 1; }
+                [[ "${1:-}" != -* ]] || { print_red "  --only requires a tool ID, got flag: $1"; exit 1; }
                 CLI_ONLY["$1"]=1
                 ;;
             *)
@@ -1618,6 +1620,10 @@ main() {
 
     # Self-update
     if _is_true "$FLAG_SELF_UPDATE"; then
+        if _is_true "$FLAG_DRY_RUN"; then
+            printf "  ${DIM}dry-run:${RESET} would run self-update (download + checksum verify + replace binary)\n"
+            exit 0
+        fi
         self_update
         exit $?
     fi
@@ -1659,7 +1665,7 @@ main() {
     fi
 
     # Confirmation
-    confirm_or_exit || exit 130
+    confirm_or_exit || exit 1
 
     # Optional post-consent bootstrap to improve Python-tool update reliability.
     ensure_uv
