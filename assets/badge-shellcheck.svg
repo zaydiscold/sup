@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="22" viewBox="0 0 120 22">
-  <rect width="70" height="22" fill="#1a1a2e" rx="3"/>
-  <rect x="70" width="50" height="22" fill="#D4AF37" rx="3"/>
-  <rect x="70" width="3" height="22" fill="#D4AF37"/>
-  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" xml:space="preserve">
-    <tspan x="35" y="15" fill="#e8e8e8" text-anchor="middle">shellcheck</tspan>
-    <tspan x="95" y="15" fill="#101010" text-anchor="middle">clean</tspan>
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="22" role="img" aria-label="shellcheck: clean">
+  <rect width="86" height="22" fill="#1a1a2e"/>
+  <rect x="86" width="56" height="22" fill="#D4AF37"/>
+  <text x="43.0" y="15" text-anchor="middle" fill="#e8e8e8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11">shellcheck</text>
+  <text x="114.0" y="15" text-anchor="middle" fill="#101010" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="11">clean</text>
 </svg>
