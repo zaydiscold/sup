@@ -1,21 +1,31 @@
-![banner](./assets/banner.svg)
+<p align="center">
+  <img src="./assets/banner.svg" alt="sup" />
+</p>
 
 <!-- add signature.svg to ./assets/ -->
 
-# sup
+<h1 align="center">sup</h1>
 
-single command that updates every package manager and dev tool on your system.
+<p align="center">single command that updates every package manager and dev tool on your system.</p>
 
-![bash](./assets/badge-bash.svg)
-![version](./assets/badge-version.svg)
-![site](./assets/badge-site.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/bash-4.0+-B4A7D6?style=flat-square&labelColor=1a1a2e" alt="bash" />
+  <img src="https://img.shields.io/badge/version-1.0.0-5F9EA0?style=flat-square&labelColor=1a1a2e" alt="version" />
+  <img src="https://img.shields.io/badge/zayd.wtf-D4AF37?style=flat-square&labelColor=1a1a2e" alt="site" />
+</p>
 
-[what it does](#what-it-does) | [install](#install) | [usage](#usage) | [what's inside](#whats-inside)
+<p align="center">
+  <a href="#what-it-does">what it does</a> · <a href="#install">install</a> · <a href="#usage">usage</a> · <a href="#whats-inside">what's inside</a>
+</p>
 
 <br>
+<br>
 
-![·](./assets/stars1.svg)
+<p align="center">
+  <img src="./assets/stars1.svg" alt="·" />
+</p>
 
+<br>
 <br>
 
 ## what it does
@@ -25,9 +35,13 @@ sup detects every package manager and developer tool on your machine and updates
 built this because running `brew update && brew upgrade && rustup update && npm update -g && pipx upgrade-all && ...` every morning was getting old. 49 tools. one word.
 
 <br>
+<br>
 
-![·](./assets/stars2.svg)
+<p align="center">
+  <img src="./assets/stars2.svg" alt="·" />
+</p>
 
+<br>
 <br>
 
 ## install
@@ -65,9 +79,13 @@ git clone https://github.com/zaydiscold/sup
 note: requires bash 4+. macos ships 3.2 by default. run `brew install bash` first if you're on a mac.
 
 <br>
+<br>
 
-![·](./assets/stars3.svg)
+<p align="center">
+  <img src="./assets/stars3.svg" alt="·" />
+</p>
 
+<br>
 <br>
 
 ## usage
@@ -92,16 +110,22 @@ sup config                       # preferences menu (type 1-7, enter)
 `sup config` is a numbered menu. lets you toggle cleanup, homebrew greedy casks, auto-retry, and a skip list. preferences save to `~/.config/sup/preferences`.
 
 <br>
+<br>
 
-![·](./assets/stars4.svg)
+<p align="center">
+  <img src="./assets/stars4.svg" alt="·" />
+</p>
 
+<br>
 <br>
 
 ## what's inside
 
-![bash](./assets/badge-bash.svg)
-![curl](./assets/badge-curl.svg)
-![shellcheck](./assets/badge-shellcheck.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/bash-B4A7D6?style=flat-square&labelColor=1a1a2e" alt="bash" />
+  <img src="https://img.shields.io/badge/curl-5F9EA0?style=flat-square&labelColor=1a1a2e" alt="curl" />
+  <img src="https://img.shields.io/badge/shellcheck-D4AF37?style=flat-square&labelColor=1a1a2e" alt="shellcheck" />
+</p>
 
 <br>
 
@@ -169,25 +193,50 @@ self-update downloads from github releases and verifies sha-256 checksums before
 | 130 | interrupted by ctrl+c. cleanup runs automatically |
 
 <br>
-
-![·](./assets/stars5.svg)
-
 <br>
 
-[![star history chart](https://api.star-history.com/svg?repos=zaydiscold/sup&type=Date)](https://star-history.com/#zaydiscold/sup&Date)
-
-mit. [license](./LICENSE)
+<p align="center">
+  <img src="./assets/stars5.svg" alt="·" />
+</p>
 
 <br>
+<br>
 
-![footer](./assets/footer.svg)
+<p align="center">
+  <a href="https://star-history.com/#zaydiscold/sup&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zaydiscold/sup&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zaydiscold/sup&type=Date" />
+      <img src="https://api.star-history.com/svg?repos=zaydiscold/sup&type=Date&theme=dark" width="320" alt="star history chart" />
+    </picture>
+  </a>
+</p>
 
-<sub>
+<p align="center">mit. <a href="./LICENSE">license</a></p>
 
-- [x] 49 tools across 8 tiers
-- [x] --interactive tui (gum / fzf / builtin)
-- [ ] --json output for scripting
-- [ ] ollama model updates
-- [ ] docker image updates
+<br>
+<br>
 
-</sub>
+<p align="left"><strong>zayd / cold</strong></p>
+
+<p align="center">
+  <a href="https://zayd.wtf">zayd.wtf</a> · <a href="https://x.com/coldcooks">twitter</a> · <a href="https://github.com/zaydiscold">github</a>
+  <br>
+  <em>icarus only fell because he flew</em>
+</p>
+
+<p align="right">
+  <strong>to do</strong><br>
+  <sub>
+  ☑ 49 tools across 8 tiers<br>
+  ☑ --interactive tui (gum / fzf / builtin)<br>
+  ☐ --json output for scripting<br>
+  ☐ ollama model updates<br>
+  ☐ docker image updates
+  </sub>
+</p>
+
+<br>
+<br>
+<br>
+<br>
